@@ -106,10 +106,8 @@ body {
 }
 .main-page {
     background-color: #2e2f42;
-}
-.main-container {
     padding-top: 188px;
-    padding-bottom: 188px;
+        padding-bottom: 188px;
 }
 .main-title {
     margin: 0 auto;
@@ -143,18 +141,18 @@ body {
    background-color: #404BBF;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    margin-bottom: 8px;
-}
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} 
+
 
 .benefits{
     padding-top: 120px;
@@ -173,6 +171,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .benefits .about-benefits {
     font-size: 16px;
