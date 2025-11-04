@@ -107,7 +107,7 @@ body {
 .main-page {
     background-color: #2e2f42;
     padding-top: 188px;
-        padding-bottom: 188px;
+    padding-bottom: 188px;
 }
 .main-title {
     margin: 0 auto;
@@ -141,19 +141,17 @@ body {
    background-color: #404BBF;
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} 
-
-
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
 .benefits{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -165,7 +163,7 @@ body {
 .benefits-items {
     flex-basis: calc((100% - 72px) / 4)
 }
-.benefits .benefits-title {
+.benefits-title {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
