@@ -186,13 +186,10 @@ overflow: hidden;
     display: flex;
     width: calc((100% - 72px) / 4);
     width: 264px;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    gap: 32px;
 }
 .team-cards {
     padding-top: 32px;
@@ -201,11 +198,7 @@ overflow: hidden;
 .team-cards-item {
     justify-content: center;
         gap: 24px;
-        padding-top: 120px;
-        padding-bottom: 120px;
         display: flex;
-
-
 }
 .our-team-title {
     color: #2E2F42;
@@ -214,7 +207,6 @@ overflow: hidden;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }.team-cards-title {
     color: #2E2F42;
@@ -238,7 +230,6 @@ overflow: hidden;
    color: #2E2F42;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   padding-top: 120px;
    margin-bottom: 72px;
 }
 .portfolio-title {
@@ -247,7 +238,6 @@ overflow: hidden;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 16px;
     margin-bottom: 8px;
 }
 .portfolio-list {
@@ -271,8 +261,6 @@ overflow: hidden;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 16px;
-    padding-bottom: 32px;
 }
 .portfolio-items-text {
     border-bottom: 1px solid #e7e9fc;
@@ -301,6 +289,7 @@ overflow: hidden;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    width: 264px;
 }
 .footer-logo {
     display: inline-block;
